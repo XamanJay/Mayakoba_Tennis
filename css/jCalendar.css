@@ -1,0 +1,58 @@
+/*
+Developer    : Jyothis
+Email ID     : sastrijajyothis@gmail.com
+License Type : GPL (http://www.gnu.org/licenses/gpl-3.0.txt)
+*/
+
+.jc_date {border: 1px black solid;vertical-align: middle;color: #000;}
+.jc_cell_title {
+    border:1px white solid;
+    background-color:black;
+	opacity:0.8;
+    text-align:center;
+    font-size:14px;
+	color:#ffffff;	
+    width:22px;
+    height:22px;
+}
+.jc_cell_weekday {
+    border:1px white solid;
+    background-color:grey;
+    text-align:center;
+    font-size:14px;
+	color:#ffffff;
+    cursor: pointer;
+    width:20px;
+    height:20px;
+}
+.jc_cell_weekend {
+    border:1px white solid;
+    background-color:grey;
+    text-align:center;
+    font-size:14px;
+    cursor: pointer;
+	color:#ffffff;
+    width:20px;
+    height:20px;
+}
+.jc_cell_disabled {
+    border:1px white solid;
+    background-color:grey;
+    text-align:center;
+    font-size:14px;
+    width:20px;
+    height:20px;
+}
+.jc_cell_current {
+    border:1px white solid;
+    background-color:grey;
+    text-align:center;
+    font-size:14px;
+    cursor: pointer;
+    width:20px;
+    height:20px;
+}
+.jcalendar_parent{
+    z-index: 999;
+    position: absolute;
+}
